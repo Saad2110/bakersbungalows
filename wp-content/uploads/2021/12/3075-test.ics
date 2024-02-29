@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WooThemes//WooCommerce Bookings 1.15.49//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Bakers Bungalow
+X-ORIGINAL-URL:https://bakersbungalows.com/
+X-WR-CALDESC:Bookings from Bakers Bungalow
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+DTEND;VALUE=DATE:20211214T235959
+UID:wc_bookings_3075
+DTSTAMP:20211212T074135
+LOCATION:
+DESCRIPTION:Resource #3072 - test\n\nPerson Type #0: 1\n\n
+URL;VALUE=URI:https://bakersbungalows.com/my-account/view-order/3076/
+SUMMARY:#3075 - test
+DTSTART;VALUE=DATE:20211214T000000
+END:VEVENT
+END:VCALENDAR

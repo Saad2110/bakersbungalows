@@ -1,0 +1,58 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.vbo-horizsearch-showcalendar{
+  line-height:1.1em !important;
+  border: 1px solid #707070 !important;
+}
+.vbo-horizsearch-showcalendar > div{
+  color:#fff;
+}
+.vbmodhorsearch-hum-dates-wrap .vbo-horizsearch-numnights-inner {
+    border: 1px solid #707070 !important;
+    line-height: 1.1em !important;
+    color: #fff !important;
+}
+.vbo-horizsearch-humanformat-wrap label {
+    color: #fff !important;
+}
+.vbo-horizsearch-showcalendar .vbo-horizsearch-placeholder{
+  color:#fff;
+}
+.vbmodhorsearch-hum-guests-count {
+    border: 1px solid #707070 !important ;
+    line-height: 1.8em !important;
+}
+.vbmodhorsearch-hum-guests-wrap .vbmodhorsearch-hum-guests-count > div span{
+  color:#BA3952;
+}
+.vbo-horizsearch-humanformat-wrap .vbmodhorsearchcategoriesblock select {
+    border: 1px solid #707070 !important;
+    line-height: 1.6 !important;
+    color: #fff !important;
+}
+#vbmodhscategories2 > option {
+  color:#000 !important;
+}
+#content > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-71c73a4.elementor-section-full_width.elementor-section-height-min-height.Section2.elementor-section-height-default.elementor-section-items-middle > div > div > div > section > div > div > div > div > div > div > form > div.vbmodhorsearch-hum-guests-wrap > div.vbmodhorsearch-hum-guests-modifier > div > div > div.vbmodhorsearchroomdentrfirst > div.horsanumdiv > label{
+  color:#000 !important;
+}
+#content > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-71c73a4.elementor-section-full_width.elementor-section-height-min-height.Section2.elementor-section-height-default.elementor-section-items-middle > div > div > div > section > div > div > div > div > div > div > form > div.vbmodhorsearch-hum-guests-wrap > div.vbmodhorsearch-hum-guests-modifier > div > div > div.vbmodhorsearchroomdentrfirst > div.horscnumdiv > label{
+  color:#000 !important;
+}
+.vbo-horizsearch-humanformat-wrap .vbmodhorsearchcategoriesblock select > option{
+  color:#000 !important;
+}
+.elementor-8 .elementor-element.elementor-element-1accd42 .elementor-nav-menu--main .elementor-item {
+    color: #ffffff;
+    fill: #ffffff;
+}
+.elementor-8 .elementor-element.elementor-element-e6790cd:not(.elementor-motion-effects-element-type-background) {
+	background-color: transparent;
+}
+.elementor-8 .elementor-element.elementor-element-e149257.she-header-yes:not(.she-header) {
+    position: relative !important;
+}
+.she-header {
+	position: fixed;
+}</style>
+<!-- end Simple Custom CSS and JS -->

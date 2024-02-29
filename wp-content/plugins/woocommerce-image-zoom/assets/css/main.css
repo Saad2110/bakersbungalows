@@ -1,0 +1,118 @@
+.wpb-wiz-woocommerce-product-gallery__wrapper .wp-post-image {
+	border-radius: 0;
+	width: 100%;
+}
+.wpb-wiz-woocommerce-product-gallery__wrapper {
+	margin: 0;
+}
+#wpb_wiz_gallery img {
+	width: 100%;
+}
+.admin-bar .fancybox-toolbar {
+	top: 46px;
+}
+div#wpb_wiz_gallery.wpb_wiz_gallery_style_on .wpb-woo-zoom {
+    float: left;
+    margin-bottom: 1em;
+    margin-right: 3.8%;
+}
+div#wpb_wiz_gallery.wpb_wiz_gallery_style_on a.wpb-woo-zoom.first {
+    clear: both;
+}
+div#wpb_wiz_gallery.wpb_wiz_gallery_style_on a.wpb-woo-zoom.last {
+    margin-right: 0;
+}
+div#wpb_wiz_gallery.wpb_wiz_gallery_style_on.thumbnails {
+	margin-top: 15px;
+}
+.woocommerce .product .wpb_wiz_gallery_style_on.thumbnails img {
+	margin: 0;
+	max-width: 100%;
+	height: auto;
+}
+div#wpb_wiz_gallery.wpb_wiz_gallery_style_on.columns-2 .wpb-woo-zoom {
+	width: 48%;
+}
+div#wpb_wiz_gallery.wpb_wiz_gallery_style_on.columns-3 .wpb-woo-zoom {
+	width: 30.75%;
+}
+div#wpb_wiz_gallery.wpb_wiz_gallery_style_on.columns-4 .wpb-woo-zoom {
+	width: 22.15%;
+}
+div#wpb_wiz_gallery.wpb_wiz_gallery_style_on.columns-5 .wpb-woo-zoom {
+	width: 16.9%;
+}
+
+/* New WooCommerce 3.0 Gallery style columns */
+.wpb-wiz-woocommerce-product-gallery__wrapper #wpb_wiz_gallery .woocommerce-product-gallery__image {
+    display: inline-block;
+}
+.woocommerce-product-gallery--columns-5 .wpb-wiz-woocommerce-product-gallery__wrapper #wpb_wiz_gallery .woocommerce-product-gallery__image {
+	width: 20%;
+}
+.woocommerce-product-gallery--columns-4 .wpb-wiz-woocommerce-product-gallery__wrapper #wpb_wiz_gallery .woocommerce-product-gallery__image {
+	width: 25%;
+}
+.woocommerce-product-gallery--columns-3 .wpb-wiz-woocommerce-product-gallery__wrapper #wpb_wiz_gallery .woocommerce-product-gallery__image {
+	width: 33.33%;
+}
+.woocommerce-product-gallery--columns-2 .wpb-wiz-woocommerce-product-gallery__wrapper #wpb_wiz_gallery .woocommerce-product-gallery__image {
+	width: 50%;
+}
+
+
+/**
+ * Theme Support Depot
+ */
+
+.theme-depot .woocommerce-product-gallery--columns-4 .wpb-wiz-woocommerce-product-gallery__wrapper #wpb_wiz_gallery .woocommerce-product-gallery__image {
+    width: 100px;
+    height: 100px;
+    position: unset;
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+.theme-depot .woocommerce-product-gallery--columns-4 .wpb-wiz-woocommerce-product-gallery__wrapper #wpb_wiz_gallery .woocommerce-product-gallery__image:last-child {
+	margin-bottom: 0;
+}
+.theme-depot .woocommerce-product-gallery--columns-4 .wpb-wiz-woocommerce-product-gallery__wrapper #wpb_wiz_gallery {
+	display: flex;
+	flex-direction: column;
+}
+.theme-depot.mkd-woo-single-page .mkd-single-product-content .images figure {
+    display: flex;
+    flex-direction: row-reverse;
+}
+@media only screen and (min-width: 769px){
+	.theme-depot.mkd-woo-single-page.mkd-woo-single-thumb-on-left-side .mkd-single-product-content .images > figure > .woocommerce-product-gallery__image {
+		padding: 0 0 0 20px;
+	}
+	.theme-depot .woocommerce-product-gallery--columns-4 .wpb-wiz-woocommerce-product-gallery__wrapper #wpb_wiz_gallery .woocommerce-product-gallery__image {
+		padding: 0;
+	}
+}
+@media only screen and (max-width: 768px){
+	.theme-depot.mkd-woo-single-page #wpb_wiz_gallery > a,
+	.theme-depot .woocommerce-product-gallery--columns-4 .wpb-wiz-woocommerce-product-gallery__wrapper #wpb_wiz_gallery .woocommerce-product-gallery__image {
+		width: 25%;
+		height: auto;
+		float: left;
+		padding-top: 20px;
+		margin: 0;
+	}
+
+	.theme-depot .woocommerce-product-gallery--columns-4 .wpb-wiz-woocommerce-product-gallery__wrapper #wpb_wiz_gallery,
+	.theme-depot.mkd-woo-single-page .mkd-single-product-content .images figure  {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 680px){
+	.theme-depot.mkd-woo-single-page #wpb_wiz_gallery > a,
+	.theme-depot .woocommerce-product-gallery--columns-4 .wpb-wiz-woocommerce-product-gallery__wrapper #wpb_wiz_gallery .woocommerce-product-gallery__image {
+	    width: 50%;
+	    height: auto;
+		float: left;
+		padding-top: 20px;
+	}
+}

@@ -1,0 +1,97 @@
+
+
+
+#wpmemory-containerright-dashboard h2 {
+  border-bottom: 5px solid #ccc;
+  padding-bottom: 5px;
+  text-shadow: 5px 5px 10px #888;
+}
+#wpmemory-containerright-dashboard
+{
+float: right;
+/* background: lightgreen; */
+/* width: 300px; */
+/* max-width: 29%; */
+margin-top: 17px; 
+padding: 0px; 
+}
+#wpmemory-containerright-dashboard ul { 
+  /* max-width: 300px; */
+  padding: 5px 10px 15px 30px;
+  margin-left: 5px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  list-style: disc;
+  -moz-box-shadow: 5px 5px 15px #aaa;
+  -webkit-box-shadow: 5px 5px 15px #aaa;
+  box-shadow: 5px 5px 15px #aaa; 
+}
+#wpmemory-containerright-dashboard img { 
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+
+#wpmemory-dashboard-left{
+  float:left;
+  max-width: 74%;
+  min-width: 74%;
+}
+
+#wpmemory-dashboard-right{
+  float:right;
+  max-width: 25%;
+  /* background: yellow; */
+  margin-right: 1%;
+}
+
+
+
+#wp-memory-logo{
+/* max-width: 200px; */
+margin-top: 10px;
+margin-left: 5px;
+}
+.wrap-wpmemory  {
+  background-color: #fff;
+  max-width: 99%;
+  margin: 0 auto;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom:30px;
+}
+.wrap-wpmemory   h2.title {
+    padding: 15px;
+    background-color: #0073aa;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 20px;
+}
+.wrap-wpmemory   p.description {
+    /* padding: 10px; */
+    font-size: 18px;
+    color: #0554e7;
+}
+.wpmemory  -form{
+padding: 0% 0 0% 5%;
+}
+.wpmemory  -submit{
+  background: #0073aa;
+color: #fff;
+padding: 10px 20px 10px 20px;
+border: 0;
+font-size: 15px;
+margin: 0 auto;
+}
+/* Tablets and iPads */
+@media (max-width: 767px) {
+  #wpmemory-containerright-dashboard {
+      display: none !important;
+  }
+  #wpmemory-dashboard-left{
+    float:left;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
